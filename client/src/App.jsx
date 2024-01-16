@@ -1,14 +1,17 @@
 import { useState } from 'react'
 import './App.css'
 import Home from './pages/Home'
-import Navbar from './components/Navbar'
+import Header from './components/Header'
+import Login from './pages/Login'
+import Footer from './components/Footer'
 
 function App() {
 
   return (
     <>
-      <Navbar/>
-      <Home/>
+      <Header/>
+      <Login/>
+      <Footer/>
     </>
   )
 }
